@@ -1,0 +1,103 @@
+/* Root */
+:root {
+  /* Polar night */
+  --nord-1: #252934;
+  --nord0: #2E3440;
+  --nord1: #3B4252;
+  --nord2: #434C5E;
+  --nord3: #4C566A;
+
+  /* Snowstorm */
+  --nord4: #D8DEE9;
+  --nord5: #E5E9F0;
+  --nord6: #ECEFF4;
+
+  /* Frost */
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+
+  /* Aurora */
+  --nord11: #BF616A;
+  --nord12: #D08770;
+  --nord13: #EBCB8B;
+  --nord14: #A3BE8C;
+  --nord15: #B48EAD;
+
+  /* Discord globals */
+  --brand-experiment: var(--nord10);
+  --brand-experiment-560: var(--nord9);
+
+  --background-primary: var(--nord-1);
+  --background-secondary: var(--nord0);
+  --background-tertiary: var(--nord-1);
+
+  --background-secondary-alt: var(--nord1);
+
+  --background-modifier-selected: var(--nord2);
+  --background-modifier-accent: var(--nord2);
+  --background-modifier-hover: var(--nord1);
+  --background-modifier-active: var(--nord2);
+  --scrollbar-auto-thumb: var(--nord2);
+  --scrollbar-thin-thumb: var(--nord2);
+
+  --background-floating: var(--nord0);
+
+  --channeltextarea-background: var(--nord0);
+  --channels-default: #6f809a;
+
+  /* Spotify */
+  --spotify-color: var(--nord14);
+}
+
+.theme-dark .container-1D34oG {
+  background-color: var(--nord-1);
+}
+
+/* Statusses */
+[fill*="hsl(139"] {
+  fill: var(--nord14);
+}
+
+[fill*="hsl(38"] {
+  fill: var(--nord13);
+}
+
+[fill*="hsl(359"] {
+  fill: var(--nord11);
+}
+
+/* Settings buttons */
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--nord2);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--nord3);
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  background-color: var(--nord11);
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+  background-color: var(--nord12);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--nord15);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--nord14);
+}
+
+[style*="hsl(139"] {
+  background-color: var(--nord14) !important;
+}
+/* End settings buttons */
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.container-1D34oG > section > div.children-19S4PO > div.tabBar-ZmDY9v.topPill-30KHOu > div:nth-child(5) {
+  background-color: var(--nord14) !important;
+}

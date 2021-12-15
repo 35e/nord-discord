@@ -1,0 +1,8 @@
+{
+  "name": "Nord",
+  "description": "Powercord theme based on the Nord theme",
+  "version": "0.0.1",
+  "theme": "nord.css",
+  "author": "35e",
+  "license": "MIT"
+}
